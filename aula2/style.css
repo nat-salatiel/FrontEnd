@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    margin: 2%;
+    padding: 2%;
+}
+
+body{
+background-color: rosybrown;
+}
+
+.titulo{
+    text-align: center;
+    padding: 10px 5px;
+    color: white;
+}
+
+.catalogo-tenis{
+    display: flex;
+    flex-direction: column;
+    background-color: rosybrown;
+}
+
+
+.allstar, 
+.puma, 
+.adidas{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.descricao,
+.descricao-preco{
+    color: #632525;
+    font-size: 21px;
+    padding-top: 10px;
+}
+
+img{
+    height: 250px;
+    width: 270px;
+}
