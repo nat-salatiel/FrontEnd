@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    margin: 10px;
+    padding: 10px;
+}
+
+.produto-inicial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.produto1{
+    display: block;
+    margin: 0 auto;
+    border: solid 0.5rem pink;
+}
+
+.nome-produto{
+    color: brown;
+}
+
+.descricao{
+    font-size: 17px;
+    color: rgb(87, 85, 85);
+}
+
+.link-compra{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(219, 31, 63);
+}
