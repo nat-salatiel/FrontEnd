@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Aula 5</title>
+  </head>
+  <body>
+    <div class="logo-mulheres-tech">
+      <h1>MULHERES TECH</h1>
+    </div>
+
+    <!-- form:  tag para formulário, action: tag de ação -->
+    <div class="formulario">
+      <h2 class="titulo-formulario">Cadastro Mulheres Tech</h2>
+      <form action="/action_page.php">
+        <!-- label: tag de legenda -->
+        <label class="label" for="fname">Nome:</label><br />
+        <!-- input: tag de campo de entrada, type: é o tipo do input, id: é identificação, name: é o nome, value: é o conteúdo que aparecerá no campo -->
+        <input
+          class="input"
+          type="text"
+          id="fname"
+          name="fname"
+          value=""
+        /><br />
+        <label class="label" for="lname">Sobrenome:</label><br />
+        <input
+          class="input"
+          type="text"
+          id="lname"
+          name="lname"
+          value=""
+        /><br />
+        <label class="label" for="email">Email:</label><br />
+        <input class="input" type="email" id="email" name="email" value="" /><br/>
+        <!-- botão de enviar -->
+        <input class="input-submit" type="submit" value="Cadastrar" />
+      </form>
+    </div>
+  </body>
+</html>

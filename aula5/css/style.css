@@ -1,0 +1,68 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: plum;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 15px;
+}
+
+.logo-mulheres-tech{
+    height: 30rem;
+    width: 30rem;
+    background-color: purple;
+    text-align: center;
+    line-height: 29rem;
+    color: rgba(235, 202, 19, 0.836);
+}
+
+.formulario{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-formulario{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+form{
+    width: auto;
+    height: auto;
+}
+
+.label{
+    color: darkmagenta;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.input{
+    margin: 10px;
+    width: 170px;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid darkmagenta;
+}
+
+.input-submit{
+    color: white;
+    font-size: 20px;
+    background-color: darkmagenta;
+    width: 200px;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
